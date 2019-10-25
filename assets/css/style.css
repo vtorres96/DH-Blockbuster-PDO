@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+main.container.pt-5.pb-5 {
+    height: 82vh;
+}
+
+header.container-fluid, footer.container-fluid{
+    padding: 0;
+}
