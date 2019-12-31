@@ -22,11 +22,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">    
-          <a class="nav-item nav-link text-white" href="#">Home</a>
-          <a class="nav-item nav-link text-white" href="#filmes">Filmes</a>
-          <a class="nav-item nav-link text-white" href="#localizacao">Localização</a>
-          <a class="nav-item nav-link text-white" href="cadastro-usuario.php">Cadastre-se</a>
-          <a class="nav-item nav-link text-white" href="login.php">Login</a>
+          <a class="nav-item nav-link text-white" href="../default/index.php">Home</a>
+          <a class="nav-item nav-link text-white" href="../default/index.php#lancamentos">Lançamentos</a>
+          <a class="nav-item nav-link text-white" href="../default/index.php#localizacao">Localização</a>
+          <a class="nav-item nav-link text-white" href="../usuarios/cadastro.php">Cadastre-se</a>
+          <a class="nav-item nav-link text-white" href="../auth/login.php">Login</a>
       </div>
     </div>
   </nav>
@@ -38,11 +38,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">    
-          <a class="nav-item nav-link text-white" href="#">Home</a>
-          <a class="nav-item nav-link text-white" href="atores.php">Atores</a>
-          <a class="nav-item nav-link text-white" href="filmes.php">Filmes</a>
+          <a class="nav-item nav-link text-white" href="../default/index.php">Home</a>
+          <a class="nav-item nav-link text-white" href="../atores/index.php">Atores</a>
+          <a class="nav-item nav-link text-white" href="../filmes/index.php">Filmes</a>
           <a class="nav-item nav-link text-white" href="#">Olá, <?= $nome ?></a>
-          <a class="nav-item nav-link text-white" href="utils/auth/logout.php">Sair</a>
+          <a class="nav-item nav-link text-white" href="../../utils/auth/logout.php">Sair</a>
       </div>
     </div>
   </nav>
