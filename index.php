@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require_once("includes/head.php"); ?>
+    <?php require_once("inc/head.php"); ?>
 </head>
 <body>
     <header class="container-fluid">
-        <?php require_once("includes/navbar.php"); ?>
+        <?php require_once("inc/navbar.php"); ?>
     </header>
 
     <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -77,9 +77,9 @@
     </section>
 
     <footer class="container-fluid mt-2">
-        <?php require_once("includes/footer.php"); ?>
+        <?php require_once("inc/footer.php"); ?>
     </footer>
 
-    <?php require_once("includes/scripts.php"); ?>
+    <?php require_once("inc/scripts.php"); ?>
 </body>
 </html>
