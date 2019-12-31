@@ -10,7 +10,7 @@ $(function ($) {
           if (retorno.sucesso) {
             mensagem.attr('class', 'alert alert-success mt-2')
             formulario.resetForm()
-            $(location).attr('href', 'index.php');
+            $(location).attr('href', '../../views/default/index.php');
           } else {
             mensagem.attr('class', 'alert alert-danger mt-2')
           }
