@@ -36,7 +36,6 @@ CREATE TABLE IF NOT EXISTS `sistema_cursos`.`filmes` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `titulo` VARCHAR(40) NULL DEFAULT NULL,
   `sinopse` VARCHAR(150) NULL DEFAULT NULL,
-  `data_lancamento` DATE NULL DEFAULT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = latin1;
